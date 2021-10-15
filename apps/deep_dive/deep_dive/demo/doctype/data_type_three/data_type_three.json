@@ -1,0 +1,180 @@
+{
+ "actions": [],
+ "allow_guest_to_view": 1,
+ "allow_rename": 1,
+ "autoname": "TEST3.####",
+ "creation": "2021-10-13 15:08:23.790315",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "inttype",
+  "linktype",
+  "longtexttype",
+  "markdowneditortype",
+  "passwordtype",
+  "percenttype",
+  "readonlytype",
+  "ratingtype",
+  "tab_break_9",
+  "selecttype",
+  "smalltexttype",
+  "texttype",
+  "texteditortype",
+  "timetype",
+  "signaturetype",
+  "route",
+  "lft",
+  "rgt",
+  "is_group",
+  "old_parent",
+  "parent_data_type_three"
+ ],
+ "fields": [
+  {
+   "fieldname": "inttype",
+   "fieldtype": "Int",
+   "label": "IntType"
+  },
+  {
+   "fieldname": "linktype",
+   "fieldtype": "Link",
+   "label": "LinkType",
+   "options": "Data Type One"
+  },
+  {
+   "fieldname": "longtexttype",
+   "fieldtype": "Long Text",
+   "label": "LongTextType"
+  },
+  {
+   "fieldname": "markdowneditortype",
+   "fieldtype": "Markdown Editor",
+   "label": "MarkdownEditorType"
+  },
+  {
+   "fieldname": "passwordtype",
+   "fieldtype": "Password",
+   "label": "PasswordType"
+  },
+  {
+   "fieldname": "percenttype",
+   "fieldtype": "Percent",
+   "label": "PercentType"
+  },
+  {
+   "fieldname": "readonlytype",
+   "fieldtype": "Read Only",
+   "label": "ReadOnlyType"
+  },
+  {
+   "fieldname": "ratingtype",
+   "fieldtype": "Rating",
+   "label": "RatingType"
+  },
+  {
+   "fieldname": "tab_break_9",
+   "fieldtype": "Tab Break",
+   "label": "TabType",
+   "options": "More Detail"
+  },
+  {
+   "fieldname": "selecttype",
+   "fieldtype": "Select",
+   "label": "SelectType",
+   "options": "Have\nNever\nGo"
+  },
+  {
+   "fieldname": "smalltexttype",
+   "fieldtype": "Small Text",
+   "label": "SmallTextType"
+  },
+  {
+   "fieldname": "texttype",
+   "fieldtype": "Text",
+   "label": "TextType"
+  },
+  {
+   "fieldname": "texteditortype",
+   "fieldtype": "Text Editor",
+   "label": "TextEditorType"
+  },
+  {
+   "fieldname": "timetype",
+   "fieldtype": "Time",
+   "label": "TimeType"
+  },
+  {
+   "fieldname": "signaturetype",
+   "fieldtype": "Signature",
+   "label": "SignatureType"
+  },
+  {
+   "fieldname": "route",
+   "fieldtype": "Data",
+   "label": "Route"
+  },
+  {
+   "fieldname": "lft",
+   "fieldtype": "Int",
+   "hidden": 1,
+   "label": "Left",
+   "no_copy": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "rgt",
+   "fieldtype": "Int",
+   "hidden": 1,
+   "label": "Right",
+   "no_copy": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "is_group",
+   "fieldtype": "Check",
+   "label": "Is Group"
+  },
+  {
+   "fieldname": "old_parent",
+   "fieldtype": "Link",
+   "label": "Old Parent",
+   "options": "Data Type Three"
+  },
+  {
+   "fieldname": "parent_data_type_three",
+   "fieldtype": "Link",
+   "label": "Parent Data Type Three",
+   "options": "Data Type Three"
+  }
+ ],
+ "has_web_view": 1,
+ "index_web_pages_for_search": 1,
+ "is_tree": 1,
+ "links": [],
+ "modified": "2021-10-14 10:50:30.997229",
+ "modified_by": "Administrator",
+ "module": "Demo",
+ "name": "Data Type Three",
+ "naming_rule": "Expression (old style)",
+ "nsm_parent_field": "parent_data_type_three",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "route": "demotwo",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

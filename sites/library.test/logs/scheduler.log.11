@@ -1,0 +1,2 @@
+2021-10-12 17:48:09,950 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for library.test
+2021-10-12 17:48:10,171 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for library.test
