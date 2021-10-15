@@ -1,0 +1,6 @@
+2021-10-13 16:48:05,991 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.notify_unreplied for library.test
+2021-10-13 16:48:06,225 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.notify_unreplied for library.test
+2021-10-13 16:48:06,299 INFO scheduler Scheduled Job Start: frappe.email.doctype.email_account.email_account.pull for library.test
+2021-10-13 16:48:06,560 INFO scheduler Scheduled Job Complete: frappe.email.doctype.email_account.email_account.pull for library.test
+2021-10-13 16:48:06,634 INFO scheduler Scheduled Job Start: frappe.email.queue.flush for library.test
+2021-10-13 16:48:06,841 INFO scheduler Scheduled Job Complete: frappe.email.queue.flush for library.test

@@ -1,0 +1,111 @@
+{
+ "actions": [],
+ "allow_guest_to_view": 1,
+ "allow_rename": 1,
+ "autoname": "TEST1.####",
+ "creation": "2021-10-13 12:31:17.792606",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "datatpe",
+  "attachedimagetype",
+  "attachtype",
+  "column_break_4",
+  "fold_5",
+  "section_break_6",
+  "barcodetype",
+  "buttontype",
+  "checktype",
+  "codetype",
+  "colortype",
+  "amended_from",
+  "route"
+ ],
+ "fields": [
+  {
+   "fieldname": "datatpe",
+   "fieldtype": "Data",
+   "label": "DataTpe"
+  },
+  {
+   "fieldname": "attachtype",
+   "fieldtype": "Attach",
+   "label": "AttachType"
+  },
+  {
+   "fieldname": "barcodetype",
+   "fieldtype": "Barcode",
+   "label": "BarCodeType"
+  },
+  {
+   "fieldname": "buttontype",
+   "fieldtype": "Button",
+   "label": "ButtonType"
+  },
+  {
+   "default": "1",
+   "fieldname": "checktype",
+   "fieldtype": "Check",
+   "label": "CheckType"
+  },
+  {
+   "fieldname": "codetype",
+   "fieldtype": "Code",
+   "label": "CodeType"
+  },
+  {
+   "fieldname": "colortype",
+   "fieldtype": "Color",
+   "label": "ColorType"
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "fold_5",
+   "fieldtype": "Fold"
+  },
+  {
+   "fieldname": "section_break_6",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Data Type One",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "attachedimagetype",
+   "fieldtype": "Attach Image",
+   "label": "AttachedImageType"
+  },
+  {
+   "fieldname": "route",
+   "fieldtype": "Data",
+   "label": "Route"
+  }
+ ],
+ "has_web_view": 1,
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2021-10-14 10:28:16.629393",
+ "modified_by": "Administrator",
+ "module": "Demo",
+ "name": "Data Type One",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "route": "Demo",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

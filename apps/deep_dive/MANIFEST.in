@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include deep_dive *.css
+recursive-include deep_dive *.csv
+recursive-include deep_dive *.html
+recursive-include deep_dive *.ico
+recursive-include deep_dive *.js
+recursive-include deep_dive *.json
+recursive-include deep_dive *.md
+recursive-include deep_dive *.png
+recursive-include deep_dive *.py
+recursive-include deep_dive *.svg
+recursive-include deep_dive *.txt
+recursive-exclude deep_dive *.pyc

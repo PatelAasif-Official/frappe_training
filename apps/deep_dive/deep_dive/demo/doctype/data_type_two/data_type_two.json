@@ -1,0 +1,123 @@
+{
+ "actions": [],
+ "allow_guest_to_view": 1,
+ "allow_rename": 1,
+ "autoname": "TEST2.####",
+ "creation": "2021-10-13 14:51:05.388947",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "datetype",
+  "datetimetype",
+  "durationtype",
+  "floattype",
+  "headingtype",
+  "htmltype",
+  "htmleditortype",
+  "icontype",
+  "curencttype",
+  "attached_image",
+  "imagetype",
+  "tabletype",
+  "route"
+ ],
+ "fields": [
+  {
+   "fieldname": "datetype",
+   "fieldtype": "Date",
+   "label": "DateType"
+  },
+  {
+   "fieldname": "datetimetype",
+   "fieldtype": "Datetime",
+   "label": "DatetimeType"
+  },
+  {
+   "fieldname": "durationtype",
+   "fieldtype": "Duration",
+   "label": "DurationType"
+  },
+  {
+   "fieldname": "floattype",
+   "fieldtype": "Float",
+   "label": "FloatType"
+  },
+  {
+   "fieldname": "headingtype",
+   "fieldtype": "Heading",
+   "label": "HeadingType"
+  },
+  {
+   "fieldname": "htmltype",
+   "fieldtype": "HTML",
+   "label": "HTMLType",
+   "options": "<p>This just a test of HTML Field in DocType</p>"
+  },
+  {
+   "fieldname": "htmleditortype",
+   "fieldtype": "HTML Editor",
+   "label": "HTMLEditorType"
+  },
+  {
+   "fieldname": "icontype",
+   "fieldtype": "Icon",
+   "label": "IconType"
+  },
+  {
+   "fieldname": "imagetype",
+   "fieldtype": "Image",
+   "label": "ImageType",
+   "options": "attached_image"
+  },
+  {
+   "fieldname": "curencttype",
+   "fieldtype": "Currency",
+   "label": "CurenctType"
+  },
+  {
+   "fieldname": "attached_image",
+   "fieldtype": "Attach Image",
+   "label": "Image For Image type"
+  },
+  {
+   "fieldname": "tabletype",
+   "fieldtype": "Table",
+   "label": "TableType",
+   "options": "Data Type One"
+  },
+  {
+   "fieldname": "route",
+   "fieldtype": "Data",
+   "label": "Route"
+  }
+ ],
+ "has_web_view": 1,
+ "image_field": "attached_image",
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-10-14 10:26:06.015296",
+ "modified_by": "Administrator",
+ "module": "Demo",
+ "name": "Data Type Two",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "route": "demoone",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
