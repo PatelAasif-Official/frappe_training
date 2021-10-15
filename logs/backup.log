@@ -78,3 +78,21 @@ Backup Summary for library.test at 2021-10-14 18:00:02.572850
 Config  : ./library.test/private/backups/20211014_180002-library_test-site_config_backup.json 94.0B
 Database: ./library.test/private/backups/20211014_180002-library_test-database.sql.gz         308.6KiB
 Backup for Site library.test has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _28a870efd8c1f161 -pB5fs6RkQ7CwyMxpY _28a870efd8c1f161 -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./demo.test/private/backups/20211015_120002-demo_test-database.sql.gz
+
+Backup Summary for demo.test at 2021-10-15 12:00:03.058294
+Config  : ./demo.test/private/backups/20211015_120002-demo_test-site_config_backup.json 161.0B
+Database: ./demo.test/private/backups/20211015_120002-demo_test-database.sql.gz         303.0KiB
+Backup for Site demo.test has been successfully completed
+File ./library.test/private/backups/20211014_120002-library_test-database.sql.gz is recent
+File ./library.test/private/backups/20211014_180002-library_test-site_config_backup.json is recent
+File ./library.test/private/backups/20211014_120002-library_test-site_config_backup.json is recent
+File ./library.test/private/backups/20211013_180002-library_test-database.sql.gz is older than 24 hours
+File ./library.test/private/backups/20211014_180002-library_test-database.sql.gz is recent
+File ./library.test/private/backups/20211013_180002-library_test-site_config_backup.json is older than 24 hours
+mysqldump --single-transaction --quick --lock-tables=false -u _549ad410e5019a30 -p4gaipS8t71rpN6a9 _549ad410e5019a30 -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./library.test/private/backups/20211015_120003-library_test-database.sql.gz
+
+Backup Summary for library.test at 2021-10-15 12:00:03.637415
+Config  : ./library.test/private/backups/20211015_120003-library_test-site_config_backup.json 94.0B
+Database: ./library.test/private/backups/20211015_120003-library_test-database.sql.gz         311.9KiB
+Backup for Site library.test has been successfully completed

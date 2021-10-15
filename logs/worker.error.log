@@ -596,3 +596,60 @@ redis.exceptions.ConnectionError: Connection closed by server.
   File "/home/user/frappe-bench/env/lib/python3.8/site-packages/redis/connection.py", line 201, in _read_from_socket
     raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
 redis.exceptions.ConnectionError: Connection closed by server.
+Exception in thread Exception in thread Thread-1:
+Thread-1:
+Traceback (most recent call last):
+Exception in thread Traceback (most recent call last):
+  File "/usr/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+Thread-1  File "/usr/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+:
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+        self.run()self.run()
+
+  File "/home/user/frappe-bench/env/lib/python3.8/site-packages/redis/client.py", line 3718, in run
+  File "/home/user/frappe-bench/env/lib/python3.8/site-packages/redis/client.py", line 3718, in run
+    self.run()
+  File "/home/user/frappe-bench/env/lib/python3.8/site-packages/redis/client.py", line 3718, in run
+        pubsub.get_message(ignore_subscribe_messages=True,pubsub.get_message(ignore_subscribe_messages=True,
+
+  File "/home/user/frappe-bench/env/lib/python3.8/site-packages/redis/client.py", line 3617, in get_message
+  File "/home/user/frappe-bench/env/lib/python3.8/site-packages/redis/client.py", line 3617, in get_message
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/home/user/frappe-bench/env/lib/python3.8/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/home/user/frappe-bench/env/lib/python3.8/site-packages/redis/client.py", line 3503, in parse_response
+        response = self.parse_response(block=False, timeout=timeout)response = self.parse_response(block=False, timeout=timeout)
+
+  File "/home/user/frappe-bench/env/lib/python3.8/site-packages/redis/client.py", line 3503, in parse_response
+  File "/home/user/frappe-bench/env/lib/python3.8/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/home/user/frappe-bench/env/lib/python3.8/site-packages/redis/connection.py", line 734, in can_read
+        if not block and not conn.can_read(timeout=timeout):if not block and not conn.can_read(timeout=timeout):
+
+  File "/home/user/frappe-bench/env/lib/python3.8/site-packages/redis/connection.py", line 734, in can_read
+  File "/home/user/frappe-bench/env/lib/python3.8/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/home/user/frappe-bench/env/lib/python3.8/site-packages/redis/connection.py", line 321, in can_read
+        return self._parser.can_read(timeout)return self._parser.can_read(timeout)
+
+  File "/home/user/frappe-bench/env/lib/python3.8/site-packages/redis/connection.py", line 321, in can_read
+  File "/home/user/frappe-bench/env/lib/python3.8/site-packages/redis/connection.py", line 321, in can_read
+    return self._buffer and self._buffer.can_read(timeout)
+  File "/home/user/frappe-bench/env/lib/python3.8/site-packages/redis/connection.py", line 230, in can_read
+    self._read_from_socket(timeout=timeout,
+          File "/home/user/frappe-bench/env/lib/python3.8/site-packages/redis/connection.py", line 201, in _read_from_socket
+return self._buffer and self._buffer.can_read(timeout)return self._buffer and self._buffer.can_read(timeout)
+
+  File "/home/user/frappe-bench/env/lib/python3.8/site-packages/redis/connection.py", line 230, in can_read
+  File "/home/user/frappe-bench/env/lib/python3.8/site-packages/redis/connection.py", line 230, in can_read
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.        ConnectionErrorself._read_from_socket(timeout=timeout,self._read_from_socket(timeout=timeout,
+
+:   File "/home/user/frappe-bench/env/lib/python3.8/site-packages/redis/connection.py", line 201, in _read_from_socket
+  File "/home/user/frappe-bench/env/lib/python3.8/site-packages/redis/connection.py", line 201, in _read_from_socket
+Connection closed by server.
+        raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+
+redis.exceptions.redis.exceptionsConnectionError.: ConnectionErrorConnection closed by server.: 
+Connection closed by server.
